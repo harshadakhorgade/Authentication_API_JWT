@@ -117,7 +117,7 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE5NTA1NzY0LCJpYXQiOjE3MTk1MDU0NjQsImp0aSI6IjExZTUxZjFhY2IzZTQwM2Y5YzkwYWQ1MTI3NGY4MjU2IiwidXNlcl9pZCI6M30.DccQmjyJAoubrNwNodlxAH5T3VSaTF9IHGm_Gw8uE_Q",
+						"value": "Bearer <add access token>",
 						"type": "text"
 					}
 				],
@@ -199,7 +199,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/user/reset-password/Mw/c9avqa-ff461e6e9688ab1f749e6f20ac6de145/",
+					"raw": "http://127.0.0.1:8000/api/user/reset-password/<uid>/<token>",
 					"protocol": "http",
 					"host": [
 						"127",
